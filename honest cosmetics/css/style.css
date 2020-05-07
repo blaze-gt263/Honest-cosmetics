@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0px;
+  padding: 5px;
+  color: black;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+a {
+  color: black;
+}
+.fab {
+  margin: 12px;
+}
+.text {
+  font-family: "Amiri", serif;
+  font-weight: 500;
+  font-size: 3.8em;
+  z-index: 2;
+}
+
+hearder {
+  display: flex;
+  height: 66px;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px 60px;
+}
+.h-links {
+  list-style: none;
+  display: inline-flex;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+hearder ul li a {
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+
+.logo {
+  color: inherit;
+  font-family: "Amiri", serif;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.logo::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    border-bottom: 3px solid black;
+    margin-top: 1.1em;
+    margin-left: -3.8em;
+}
+/*page styles*/
+
+.page-wrapper {
+  position: relative;
+}
+
+.socials {
+  position: absolute;
+  top: 35%;
+}
+
+.socials ul li a {
+  font-size: 1.1em;
+  margin-left: -40px;
+  margin-bottom: 25px !important;
+}
+
+.main-text {
+  position: absolute;
+  left: 16%;
+  top: 30%;
+  letter-spacing: ;
+}
+.main-text h1 span {
+  font-weight: bolder;
+  font-size: 1.15em;
+}
+.main-text .intro {
+  margin-left: 20%;
+  font-weight: 300;
+  font-size: 19px;
+  letter-spacing: 0.08em;
+  width: 450px;
+}
+.main-text .intro::before {
+  content: "";
+  position: absolute;
+  left: -40%;
+  height: 2.5em;
+  width: 52%;
+  margin-top: 9px;
+  background: #f1ede2;
+  z-index: -1;
+  opacity: 100%;
+}
+.main-image {
+  position: absolute;
+  right: 0px;
+  background-image: url(../img/honest.jfif);
+  height: 90vh;
+  width: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.main-image img {
+  width: 520px;
+  height: calc(100vh - 66px);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0.1%;
+  width: 71%;
+  z-index: 888;
+}
+footer {
+  height: 35vh;
+  background: #233838;
+  display: flex;
+  position: relative;
+}
+
+.make-up {
+  width: 20em;
+  height: auto;
+  background: url("../img/brishes.jpg");
+  background-blend-mode: color;
+  background-size: cover;
+}
+
+.cta {
+  color: darkgrey;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 300;
+  align-self: center;
+  position: relative;
+  margin: 3em auto;
+  white-space: nowrap;
+  transition: all ease 0.8s;
+}
+
+.cta::before {
+  content: "";
+  position: absolute;
+  width: 83%;
+  height: 2.5em;
+  left: -1em;
+  top: -5px;
+  border: 1px solid rgba(219, 215, 215, 0.5);
+}
+
+.cta:hover {
+  text-decoration: none;
+  color: white;
+  padding-left: 8px;
+  transition: ease 0.5s;
+}
+
+.block {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #256363;
+}
+
+.one {
+  right: 60px;
+}
+.two {
+  right: 0px;
+  top: 60px;
+}

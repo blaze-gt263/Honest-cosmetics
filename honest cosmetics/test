@@ -1,0 +1,28 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'Amiri', serif;
+
+li{
+    list-style: none;
+    color: black;
+}
+a{
+    color: black;
+}
+
+hearder{
+    display: inline-block;
+    height: 66px;
+    width: 100%;
+    padding: 15px 100px
+}
+
+.logo{
+     
+}
+
+
+.navigation .links{
+    display: flex;
+   
+    
+}
